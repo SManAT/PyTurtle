@@ -42,12 +42,8 @@ Beside all basic commands from python turtle module, there are these extensions:
 >
 > ![Example](https://github.com/SManAT/PyTurtle/blob/main/Python-Turtle/arcs.svg)
 
-- createFilledCircle(self, x, y, color, radius, winkel=360, steps=50)
-
-  ```python
-  t.createFilledCircle(0, 0, "#aaaaaa", radius, 360)
-  ```
-
-```
-
-```
+> createFilledCircle(self, x, y, color, radius, winkel=360, steps=50)
+>
+> ```python
+>   t.createFilledCircle(0, 0, "#aaaaaa", radius, 360)
+> ```
