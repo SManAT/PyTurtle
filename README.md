@@ -26,8 +26,9 @@ Beside all basic commands from python turtle module, there are these extensions:
 
 > drawArc(x, y, radius, startangle, angle, steps)  
 >  _t_ ... is the Turtle Object  
->  _startangle_ ... where to start at the circle. 90 = at the top
-
+>  _startangle_ ... where to start at the circle. 90 = at the top  
+>  _angle_ ... which angle to draw. negativ angles are drawing clockwise
+>
 > ```python
 > params = {"title": "Pi Radial", "filename": "PiRadial.svg", "size": (500, 500)}
 > t = SVG_Turtle(params)
@@ -38,7 +39,7 @@ Beside all basic commands from python turtle module, there are these extensions:
 > #2
 > t.drawArc(-150, 00, 100, 270, 90)
 > ```
-
+>
 > ![Example](https://github.com/SManAT/PyTurtle/blob/main/Python-Turtle/arcs.svg)
 
 - createFilledCircle(self, x, y, color, radius, winkel=360, steps=50)
