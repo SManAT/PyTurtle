@@ -30,3 +30,14 @@ Beside all basic commands from python turtle module, there are these extensions:
   _t_ ... is the Turtle Object  
   _startangle_ ... where to start at the circle. 90 = at the top  
   _angle_ ... which angle to draw. negativ angles are drawing clockwise
+
+```python
+#1
+drawArc(t, 0, 0, 100, 90, -200)
+#2
+drawArc(t, 100, 100, 100, 90, 90)
+#2
+drawArc(t, -150, 00, 100, 270, 90)
+```
+
+![Example](https://github.com/SManAT/PyTurtle/Python-Turtle/arcs.svg)
