@@ -40,4 +40,4 @@ drawArc(t, 100, 100, 100, 90, 90)
 drawArc(t, -150, 00, 100, 270, 90)
 ```
 
-![Example](https://github.com/SManAT/PyTurtle/Python-Turtle/arcs.svg)
+![Example](https://github.com/SManAT/PyTurtle/blob/main/Python-Turtle/arcs.svg)
