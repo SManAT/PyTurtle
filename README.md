@@ -23,3 +23,10 @@ Example Usage
 
     t.wait()
 ```
+
+Beside all basic commands from python turtle module, there are these extensions:
+
+- drawArc(t, x, y, radius, startangle, angle, steps)
+  t ... is the Turtle Object
+  startangle ... where to start at the circle. 90 = at the top
+  angle ... which angle to draw. negativ angles are drawing clockwise
