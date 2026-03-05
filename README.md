@@ -32,12 +32,14 @@ Beside all basic commands from python turtle module, there are these extensions:
   _angle_ ... which angle to draw. negativ angles are drawing clockwise
 
 ```python
+params = {"title": "Pi Radial", "filename": "PiRadial.svg", "size": (500, 500)}
+t = SVG_Turtle(params)
 #1
-drawArc(t, 0, 0, 100, 90, -200)
+drawArc(0, 0, 100, 90, -200)
 #2
-drawArc(t, 100, 100, 100, 90, 90)
+drawArc(100, 100, 100, 90, 90)
 #2
-drawArc(t, -150, 00, 100, 270, 90)
+drawArc(-150, 00, 100, 270, 90)
 ```
 
 ![Example](https://github.com/SManAT/PyTurtle/blob/main/Python-Turtle/arcs.svg)
