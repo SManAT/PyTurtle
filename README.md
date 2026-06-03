@@ -2,24 +2,31 @@
 
 Some usefull stuff for Turtle Graphis
 
-## Tigerjython
-
-Is done here [https://www.tigerjython.ch](https://www.tigerjython.ch)  
-Its an workaround for simplyfied working with smaller kids.
-
-`SVG.py` is a self written library, that exports the turtle graphics to an SVG File. Still there are some missing parts. See the examples how to use it.
-
 ## Python-Turtle
 
-Holds mainly a Class that is doing Turtle Commands, and also writes an SVG File.
+
+
+# classes
+
+Holds some classes 
+
+## svg_turtle_class.py
+
+is doing Turtle Commands, and also writes an SVG File.
 Example Usage
 
 ```python
-    params = {"title": "Pi Radial", "filename": "PiRadial.svg", "size": (500, 500)}
-    t = SVG_Turtle(params)
-    t.speed(8)
+t = SVGTurtle(width=400, height=400, filename="01_square.svg", bgcolor="lightblue")
+t.shape("turtle")
+t.color("green")
+t.speed(3)
+
+# Quadrat zeichnen
+for i in range(4):
     t.forward(100)
-    t.wait()
+    t.right(90)
+
+t.save_svg()
 ```
 
 Beside all basic commands from python turtle module, there are these extensions:
@@ -47,3 +54,10 @@ Beside all basic commands from python turtle module, there are these extensions:
 > ```python
 >   t.createFilledCircle(0, 0, "#aaaaaa", radius, 360)
 > ```
+
+## Tigerjython
+
+Is done here [https://www.tigerjython.ch](https://www.tigerjython.ch)  
+Its an workaround for simplyfied working with smaller kids.
+
+`SVG.py` is a self written library, that exports the turtle graphics to an SVG File. Still there are some missing parts. See the examples how to use it.

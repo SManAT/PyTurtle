@@ -1,0 +1,18 @@
+# Usage: 
+#   pip install -e .
+
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lpy-turtle"
+version = "1.0.0"
+description = "Lindemayer Systems"
+
+dependencies = [
+    "svg_turtle",
+]
+requires-python = ">=3.8"
+
+
